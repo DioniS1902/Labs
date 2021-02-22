@@ -25,7 +25,7 @@ class Mechanical3dPuzzle:
         return returneSring.format(countOfElements=self.countOfElements,
                                                                 guaranteeInMonths=self.guaranteeInMonths,
                                                                 material=self.material,
-                                                                typeOfPuzzel=self.typeOfPuzzel,
+                                                                typeOfPuzzel=self.typeOfPuzzle,
                                                                 price=f", price = {str(self.price)}" if self.price else "",
                                                                 name=f", name = {str(self.name)}" if self.name else "",
                                                                 countOfBuys=f", count of buys = {str(self.countOfBuys)}" if self.countOfBuys else "")
